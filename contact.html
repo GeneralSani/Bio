@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Just Projects- My Bio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Halant:wght@600&family=Manrope:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="formstyle.css">
+</head>
+<body>
+    <section>
+        <h1 class="formheading">Contact Form</h1>
+        <form action="" method="">
+            <label for="fullname" class="fullname">Name: <input type="text" id="fullname" name="fullname" placeholder="Enter your Name"> </label><br>
+            <label for="username" class="username">UserName: <input type="text" id="username" name="username" placeholder="Enter your username"> </label> <br>
+            <label for="password" class="password">Password: <input type="password" id="password" name="password" placeholder="Enter your Password" > </label> <br>
+            <label for="retypepass" class="retypepass">Re-type Password: <input type="password" id="retypepass" name="retypepass" placeholder="Enter your Password"> </label> <br>    
+            <label for="gender" class="gender" >Gender:</label> 
+            <input type="radio" id="male" name="gender" value="Male" > 
+            <label for="male" class="genderlabel">Male</label> 
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female" class="genderlabel">Female</label> <br>
+            <label for="techieskills" class="techieskills">Techie Skills:</label>
+            <input type="checkbox"  id="html" name="techieskills" value="HTML">
+            <label for="HTML" class="checklabel">HTML</label> 
+            <input type="checkbox"  id="css" name="techieskills" value="CSS">
+            <label for="css" class="checklabel">CSS</label> 
+            <input type="checkbox"  id="javascript" name="techieskills" value="Javascript">
+            <label for="javascript" class="checklabel">Javascript</label> <br>
+            <label for="phone" class="phone">Phone Number: <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Enter your Address"> </label> <br>
+            <label for="email" class="email">Email: <input type="email" id="email" name="email" placeholder="Enter your Email Address"> </label> <br>
+            <label for="College" class="college">College: </label>
+            <select name="college" id="college" class="coll" placeholder="Enter your college">
+                <span>
+                <option value="Baylor College" class="colle"> Baylor college</option>
+                <option value="Just Project College" class="colle"> Just Project College</option>
+                <option value="Aso rock College" class="colle">Aso rock College</option>
+                </span>
+            </select> <br>
+            <input type="button" value="Submit">
+        </form>
+
+    </section>          
+</body>
+</html>
